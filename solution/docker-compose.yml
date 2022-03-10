@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  csvserver:
+    container_name: csvserver
+    image: 613941d2d8f4 
+    ports:
+      - "9393:9300"
